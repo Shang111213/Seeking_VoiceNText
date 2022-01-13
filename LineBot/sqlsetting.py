@@ -1,13 +1,6 @@
 import pymysql
 
 config = {
-    'host': '35.226.204.174',
-    'port': 3306,
-    'user': 'Larry',
-    'passwd': '12345678',
-    'db': 'CFI101_MYSQL',
-    'charset': 'utf8mb4',
-    'local_infile': 1
 }
 
 def query_mysql(event):    # 查詢功能設定
