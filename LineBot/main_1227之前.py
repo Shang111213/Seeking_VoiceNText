@@ -20,10 +20,10 @@ import requests
 # from Simlarity import Sim
 import threading
 
-line_bot_api = LineBotApi('AD8c4PMlQS/daz35NekJygo5Wv4DG2vzstTyc4pJii+rbj511SwYZEFIFVLbC02kSEkiA8Y0ofFDr+K0Ihem5LN4VO1I479TbFoTC1px8Uaqg/SaLkgvy3J1Vsir5yfqjZkd4kXrZbmsZlHtbtjXmAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('84de0d6a98bf11324362b7077ffdca97')
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
 
-baseurl = 'https://e4df-111-249-1-191.ngrok.io/static/'
+baseurl = ''
 
 def getmodel():
     global index, dct, ti, wordsim
