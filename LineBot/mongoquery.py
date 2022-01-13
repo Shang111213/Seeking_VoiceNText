@@ -1,8 +1,8 @@
 import pymongo
 import re
 
-#### 連接位於34.123.77.198 IP 位置的  mongodb
-myclient = pymongo.MongoClient('mongodb://Larry:12345678@34.123.77.198')
+#### 連接位於 IP 位置的  mongodb
+myclient = pymongo.MongoClient()
 dblist = myclient.list_database_names()
 
 # use 'test_1' 資料庫
